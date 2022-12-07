@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite Foods</title>
+    <style>
+      #topbar {
+        background-color: rgba(175, 7, 170, 0.789);
+        font-size: 20px;
+        padding: 30px;
+      }
+      .menu-item {
+        font-size: 24px;
+        padding: 10px;
+        font-weight: 300px;
+      }
+      #list-heading {
+        font-size: 20px;
+        padding: 20px;
+      }
+      .food-item-list {
+        font-size: 20px;
+      }
+      .food-image {
+        font-size: 30px;
+        height: 400px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: #299a4e">
+    <div id="topbar">
+      <span class="menu-item">Index</span>
+      <span class="menu-item">Food</span>
+      <span class="menu-item">About</span>
+    </div>
+    <h3 id="list-heading">Top 5 Favourite Foods</h3>
+    <ul>
+      <li><a class="food-item-list" href="#Cake">Cake</a></li>
+      <li><a class="food-item-list" href="#Biryani">Biryani</a></li>
+      <li><a class="food-item-list" href="#Sandwich">Sandwich</a></li>
+      <li><a class="food-item-list" href="#Frenchfries">Frenchfries</a></li>
+      <li><a class="food-item-list" href="#Pizza">Pizza</a></li>
+    </ul>
+    <div class="food-wrapper">
+      <p style="text-align: center">
+        <img id="Cake" class="food-image" src="/cake.jpg" alt="Cake" />
+      </p>
+      <p style="text-align: center">Cake</p>
+    </div>
+    <div class="food-wrapper">
+      <p style="text-align: center">
+        <img id="Biryani" class="food-image" src="/Biryani.jpg" alt="Biryani" />
+      </p>
+      <p style="text-align: center">Biryani</p>
+    </div>
+    <div class="food-wrapper">
+      <p style="text-align: center">
+        <img
+          id="Sandwich"
+          class="food-image"
+          src="/sandwich.webp"
+          alt="Sandwich"
+        />
+      </p>
+      <p style="text-align: center">Sandwich</p>
+    </div>
+    <div class="food-wrapper">
+      <p style="text-align: center">
+        <img
+          id="Frenchfries"
+          class="food-image"
+          src="/Frenchfries.jpg"
+          alt="Frenchfries"
+        />
+      </p>
+      <p style="text-align: center">Frenchfries</p>
+    </div>
+    <div class="food-wrapper">
+      <p style="text-align: center">
+        <img id="Pizza" class="food-image" src="/pizzaa.jpg" alt="Pizza" />
+      </p>
+      <p style="text-align: center">Pizza</p>
+    </div>
+  </body>
+</html>
